@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript - 65 Challenge</title>
+    <style>
+      body{
+        text-align: center;
+        background-color: teal;
+        margin-top: 250px;
+      }
+    </style>
+</head>
+
+<body>
+  <h1>LOOKING FOR 65</h1>
+  <p>Check Console for returns</p>
+<script>
+  function checkNumber(x,y){
+    var x;
+    var y;
+    var sum;
+    if((x == 65) || (y == 65)){
+      return true;
+    }
+    else if ((x + y == 65)){
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+      window.console.log(checkNumber(65,32));
+      window.console.log(checkNumber(15, 9));
+      window.console.log(checkNumber(60, 5));
+      window.console.log(checkNumber(15, 45));
+      window.console.log(checkNumber(-65, 60));
+      window.console.log(checkNumber(-65, 165 ));
+      window.console.log(checkNumber(35, 30));
+      window.console.log(checkNumber(1.0, 65));
+</script>
+</body>
+</html>
